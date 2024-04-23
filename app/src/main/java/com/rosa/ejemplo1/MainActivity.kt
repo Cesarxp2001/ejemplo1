@@ -30,8 +30,7 @@ class MainActivity : AppCompatActivity() {
                 arrayOf(Manifest.permission.WRITE_EXTERNAL_STORAGE),
                 REQUEST_CODE_STORAGE_PERMISSION)
         } else {
-            // Los permisos ya han sido otorgados, puedes proceder con la escritura en el archivo
-        }
+         }
     }
 
     override fun onRequestPermissionsResult(requestCode: Int, permissions: Array<out String>, grantResults: IntArray) {
