@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">ejemplo1</string>
+    <string name="button_start_text">Empezar</string>
+    <string name="welcome_message">Bienvenido a Trivia Game</string>
+
+</resources>
